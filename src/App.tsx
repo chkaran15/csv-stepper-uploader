@@ -1,10 +1,10 @@
-import CSVUploadStepper from "./components/csv-uploader";
+import CSVUploader from "./components/CSVUploader";
 
 function App() {
   return (
-    <>
-      <CSVUploadStepper />
-    </>
+    <div className="m-10 rounded-lg  bg-white border border-gray-300">
+      <CSVUploader />
+    </div>
   );
 }
 
